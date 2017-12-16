@@ -27,7 +27,7 @@ int main(int argc, char** argv){
 	Mat3b res(im.size(), Vec3b(0,0,0));
 	double alpha=0.5, beta=(1.0-alpha);
 	while(1){
-		//waitKey(0.5);
+		waitKey(1);
 
 		cap >> im;
 		orig=im.clone();
